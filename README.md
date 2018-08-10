@@ -18,11 +18,6 @@ The values are also split into a 'value' column. The raw_message is also saved.
 
 # Setup
 
-1. Create Schema
-Run DB.sql to create the 'mqtt' database with the table.
-
-2. Change database details
-Configure the MySQL host, username and password in the 'insert.py' script.
-
-3. Insert MQTT Data
-Run 'insert.py' to start collecting MQTT topics, subtopics and data.
+1. Create Schema - Run DB.sql to create the 'mqtt' database with the table.
+2. Change database details - Configure the MySQL host, username and password in the 'insert.py' script.
+3. Insert MQTT Data - Run 'insert.py' to start collecting MQTT topics, subtopics and data.
