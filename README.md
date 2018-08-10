@@ -8,7 +8,7 @@ If a MQTT message is received like this:
 ```
 office {"Humidity":71.40,"Temperature":18.90}
 ```
-Office would be saved as a topic and Humidity and Temperature would be saved as a Subtopics.
+Office would be saved as a topic and Humidity and Temperature would be saved as Subtopics.
 The values are also split into a 'value' column. The raw_message is also saved.
 
 | idTopic       | idSubTopic    | raw_message                             | value         |
